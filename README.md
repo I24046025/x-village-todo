@@ -4,6 +4,7 @@
 點擊兩下是編輯事件功能。
 
 ## Heroku
+https://x-village-todo-kehsin.herokuapp.com
 
 
 ## Setup

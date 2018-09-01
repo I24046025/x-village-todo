@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
     <style>
-        .jumbotron{ 
+        .jumbotron{
             color: green;
             background: white 
         }
@@ -88,7 +88,7 @@
             <ul id="item-lists" class="list-group">
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                     Example: 訂車票
-                    <h5><span class="badge badge-light">2018-09-21</span></h5>
+                    <h5><span class="badge badge-success">2018-09-21</span></h5>
                 </li>
             </ul>
         </div>
@@ -126,7 +126,7 @@
                         <span class="item-event"}>${item['event']}</span>
                     </div>
                     <i data-record-id="${item['id']}" class="btnRemove fas fa-trash-alt"></i>
-                    <h5><span data-record-date="${item['date']}" class="item-date badge badge-light"> ${item['date']}</span></h5>
+                    <h5><span data-record-date="${item['date']}" class="item-date badge badge-success"> ${item['date']}</span></h5>
                 </li>`;
                 elementsHtml += element;
             }
@@ -236,7 +236,7 @@
                         </div>
                     </div>
                     <i data-record-id="${recordId}" class="btnRemove fas fa-trash-alt"></i>
-                    <h5><span data-record-date="${oldDate}" class="item-date badge badge-light"> ${oldDate}</span></h5>
+                    <h5><span data-record-date="${oldDate}" class="item-date badge badge-success"> ${oldDate}</span></h5>
                 `;
             recordElement.html(element);
             recordElement.removeClass('on-edit')
